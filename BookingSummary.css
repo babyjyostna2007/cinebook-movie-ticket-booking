@@ -1,0 +1,121 @@
+.summary-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.summary-card {
+  background: #12091e;
+  border: 1px solid #2d1b4e;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 560px;
+}
+
+.summary-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #f5c518;
+  margin-bottom: 1.5rem;
+}
+
+.summary-section {
+  padding: 1rem 0;
+  border-bottom: 1px solid #2d1b4e;
+}
+
+.summary-section:last-of-type { border-bottom: none; }
+
+.summary-movie-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.summary-poster { font-size: 2.5rem; }
+
+.summary-movie-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.summary-movie-meta {
+  font-size: 0.78rem;
+  color: #8b6fa8;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 6px 0;
+  gap: 1rem;
+}
+
+.summary-label { font-size: 0.85rem; color: #8b6fa8; }
+.summary-value { font-size: 0.88rem; color: #c4a8d8; font-weight: 600; text-align: right; }
+.seats-value   { max-width: 60%; word-break: break-all; }
+
+.price-section { background: #0f0720; border-radius: 10px; padding: 1rem; margin: 0.5rem 0; border: none; }
+
+.total-row { border-top: 1px solid #2d1b4e; padding-top: 10px; margin-top: 6px; }
+.total-val { font-size: 1.1rem; color: #f5c518; }
+
+.field-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #c4a8d8;
+  margin-bottom: 0.5rem;
+}
+
+.name-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: #0a0a0f;
+  border: 1.5px solid #2d1b4e;
+  border-radius: 8px;
+  color: white;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.name-input:focus { border-color: #f5c518; }
+.name-input::placeholder { color: #4a3060; }
+
+.summary-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-back-sum {
+  padding: 12px 20px;
+  background: transparent;
+  border: 1px solid #4a3060;
+  color: #c4a8d8;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-back-sum:hover { background: #2d1b4e; }
+
+.btn-confirm {
+  flex: 1;
+  padding: 12px;
+  background: #f5c518;
+  color: #0a0a0f;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  transition: opacity 0.2s;
+}
+
+.btn-confirm:hover    { opacity: 0.9; }
+.btn-confirm:disabled { opacity: 0.4; cursor: not-allowed; }

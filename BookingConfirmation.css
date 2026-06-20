@@ -1,0 +1,96 @@
+.confirm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-card {
+  width: 100%;
+  max-width: 560px;
+  text-align: center;
+}
+
+.confirm-icon    { font-size: 4rem; margin-bottom: 1rem; }
+.confirm-heading { font-size: 1.8rem; font-weight: 800; color: #f5c518; margin-bottom: 0.4rem; }
+.confirm-sub     { font-size: 0.9rem; color: #8b6fa8; margin-bottom: 2rem; }
+
+.ticket {
+  background: #12091e;
+  border: 1px solid #2d1b4e;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.ticket-header {
+  background: linear-gradient(135deg, #1a0a2e, #2d1b4e);
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ticket-poster { font-size: 2.5rem; }
+.ticket-title  { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.ticket-meta   { font-size: 0.75rem; color: #8b6fa8; }
+
+.ticket-id       { margin-left: auto; text-align: right; }
+.ticket-id-label { font-size: 0.7rem; color: #8b6fa8; margin-bottom: 2px; }
+.ticket-id-val   { font-size: 0.9rem; font-weight: 800; color: #f5c518; letter-spacing: 1px; }
+
+.ticket-divider {
+  display: flex;
+  align-items: center;
+  padding: 0 -12px;
+  position: relative;
+}
+
+.notch {
+  width: 24px;
+  height: 24px;
+  background: #0a0a0f;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0 -12px;
+  z-index: 1;
+}
+
+.dashed-line {
+  flex: 1;
+  border-top: 2px dashed #2d1b4e;
+  margin: 0 12px;
+}
+
+.ticket-body { padding: 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+
+.ticket-row { display: flex; gap: 1rem; }
+
+.ticket-field { flex: 1; }
+
+.field-label-t {
+  font-size: 0.72rem;
+  color: #6b5080;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.field-val      { font-size: 0.9rem; color: #c4a8d8; font-weight: 600; }
+.seats-list     { word-break: break-all; }
+.total-paid     { color: #f5c518; font-size: 1.1rem; }
+
+.confirm-actions { margin-top: 1rem; }
+
+.btn-new-booking {
+  background: #f5c518;
+  color: #0a0a0f;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: opacity 0.2s;
+}
+
+.btn-new-booking:hover { opacity: 0.9; }
